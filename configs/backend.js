@@ -618,7 +618,7 @@ module.exports = {
 		}],
 
 		// Declare no more than 1 variable per line.
-		"one-var-declaration-per-line": 2,
+		// "one-var-declaration-per-line": 2,
 
 		// Allow both `x = x + ''` and `x += ''`.
 		"operator-assignment": 0,

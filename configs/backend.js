@@ -611,11 +611,11 @@ module.exports = {
 		}],
 
 		// Declare no more than 1 variable per line.
-		"one-var": [2, {
-			"var": "never",
-			"let": "never",
-			"const": "never",
-		}],
+		// "one-var": [2, {
+		// 	"var": "never",
+		// 	"let": "never",
+		// 	"const": "never",
+		// }],
 
 		// Declare no more than 1 variable per line.
 		// "one-var-declaration-per-line": 2,

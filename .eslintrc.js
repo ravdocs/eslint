@@ -8,5 +8,4 @@ delete module.exports.extends[1];
 delete module.exports.rules['import/no-extraneous-dependencies'];
 delete module.exports.rules['import/no-unresolved'];
 delete module.exports.rules['async-series'];
-delete module.exports.rules['capitalized-require-var'];
 delete module.exports.rules['lowercase-require-param'];

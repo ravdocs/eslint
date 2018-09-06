@@ -390,7 +390,7 @@ module.exports = {
 		}],
 
 		// Do not name a function more times than necessary (e.g., `x.y = function() {}`, not `x.y = function y() {}`).
-		"func-names": [2, "never"],
+		// "func-names": [2, "never"],
 
 		// Allow both `var x = function() {` and `function x() {`. todo: revisit?
 		"func-style": 0,

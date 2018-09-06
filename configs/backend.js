@@ -624,12 +624,12 @@ module.exports = {
 		"operator-assignment": 0,
 
 		// `<li> +`, not `+ <li>`
-		"operator-linebreak": [2, "after", {
-			"overrides": {
-				"?": "ignore",
-				":": "ignore"
-			}
-		}],
+		// "operator-linebreak": [2, "after", {
+		// 	"overrides": {
+		// 		"?": "ignore",
+		// 		":": "ignore"
+		// 	}
+		// }],
 
 		// Allow but not require an empty line at the start of blocks.
 		"padded-blocks": 0,
@@ -698,11 +698,11 @@ module.exports = {
 		// bad `function() {`
 		// good `function x() {`
 		// bad `function x () {`
-		"space-before-function-paren": [2, {
-			"anonymous": "always",
-			"named": "never",
-			"asyncArrow": "never"
-		}],
+		// "space-before-function-paren": [2, {
+		// 	"anonymous": "always",
+		// 	"named": "never",
+		// 	"asyncArrow": "never"
+		// }],
 
 		// `if (err)`, not `if ( err )`
 		"space-in-parens": [2, "never"],

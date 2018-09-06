@@ -228,7 +228,7 @@ module.exports = {
 		"prefer-promise-reject-errors": 2,
 
 		// Only add `radix` to `parseInt` if needed (e.g., `parseInt('8')`, not `parseInt('8', 10)`).
-		"radix": [2, "as-needed"],
+		// "radix": [2, "as-needed"],
 
 		// Always have an `await` expression inside an `async` function.
 		"require-await": 2,

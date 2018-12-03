@@ -1,6 +1,6 @@
 # Eslint Configuration
 
-[https://www.npmjs.com/package/@ravdocs/eslint](https://www.npmjs.com/package/@ravdocs/eslint)
+A set of coding standard settings for use with [https://eslint.org/](https://eslint.org/). Eslint is source code checking framework used to enforce coding standards.
 
 ## Usage
 

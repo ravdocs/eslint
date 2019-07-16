@@ -1,6 +1,6 @@
 {
   "name": "@ravdocs/eslint",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "publishConfig": {
     "scope": "ravdocs"
   },
@@ -19,7 +19,7 @@
     "url": "https://github.com/ravdocs/eslint/issues"
   },
   "dependencies": {
-    "eslint-plugin-import": "^2.9.0"
+    "eslint-plugin-import": "^2.18.0"
   },
   "homepage": "https://github.com/ravdocs/eslint#readme"
 }

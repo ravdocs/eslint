@@ -1,25 +1,33 @@
 {
   "name": "@ravdocs/eslint",
   "version": "1.0.10",
-  "publishConfig": {
-    "scope": "ravdocs"
-  },
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "keywords": [
+    "eslint"
+  ],
+  "homepage": "https://github.com/ravdocs/eslint#readme",
+  "bugs": {
+    "url": "https://github.com/ravdocs/eslint/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ravdocs/eslint.git"
   },
-  "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ravdocs/eslint/issues"
+  "author": "",
+  "files": [
+    "configs",
+    "rules",
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "eslint-plugin-import": "^2.18.2"
   },
-  "homepage": "https://github.com/ravdocs/eslint#readme"
+  "publishConfig": {
+    "scope": "ravdocs"
+  }
 }

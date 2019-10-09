@@ -19,7 +19,7 @@
     "url": "https://github.com/ravdocs/eslint/issues"
   },
   "dependencies": {
-    "eslint-plugin-import": "^2.18.0"
+    "eslint-plugin-import": "^2.18.2"
   },
   "homepage": "https://github.com/ravdocs/eslint#readme"
 }

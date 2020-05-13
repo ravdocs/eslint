@@ -230,8 +230,8 @@ module.exports = {
 		// Only add `radix` to `parseInt` if needed (e.g., `parseInt('8')`, not `parseInt('8', 10)`).
 		// "radix": [2, "as-needed"],
 
-		// Always have an `await` expression inside an `async` function.
-		"require-await": 2,
+		// Allow `async` functions without an `await` expression. It is better to use async everywhere than to use async sometimes and Promise sometimes.
+		"require-await": 0,
 
 		// Allow variable declarations on any line inside a function. Keep in mind that the interpreter hoists them to the top.
 		"vars-on-top": 0,

@@ -210,6 +210,14 @@ module.exports = {
 		// Do not write an expression which does not affect the state of the program (e.g., `i += 1;`, not `i + 1;`).
 		"no-unused-expressions": 2,
 
+		// Do not have unnecessary variables. Sometimes is a variable is unused but needs to be defined, such as in callbacks or destructuring assignments.
+		"no-unused-vars": [2, {
+			"vars": "all",
+			"varsIgnorePattern": "^_",
+			"args": "after-used",
+			"ignoreRestSiblings": false
+		}],
+
 		// Do not use `.call` or `.apply` unnecessarily.
 		"no-useless-call": 2,
 

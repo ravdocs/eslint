@@ -52,6 +52,12 @@ module.exports = {
 		// Do not use template syntax inside a regular string. `${var}`, not '${var}'
 		"no-template-curly-in-string": 2,
 
+		// Always `break` or `return` at the end of a case statement.
+		"no-fallthrough": [2, {
+			// Indicate that a fallthrough is the desired behavior by leaving a comment which contains 'fallthrough' or 'case xxx:'.
+			"commentPattern": "(case .+:)|(fallthrough)"
+		}],
+
 		/*****************************
 		* Best Practices
 		*****************************/

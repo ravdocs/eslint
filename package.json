@@ -24,11 +24,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint-plugin-import": "^2.23.4"
+  },
   "publishConfig": {
     "scope": "ravdocs"
   },
-  "devDependencies": {
-    "eslint-plugin-import": "^2.23.3"
-  }
+  "devDependencies": {}
 }

@@ -25,7 +25,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "eslint-plugin-import": "^2.25.2"
+    "eslint-plugin-import": "^2.25.4"
   },
   "publishConfig": {
     "scope": "ravdocs"
